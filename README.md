@@ -8,9 +8,37 @@ lightline-gruvbox-theme brings [gruvbox](https://github.com/morhetz/gruvbox) col
 
 Installation
 --------------
-Install using your favorite Vim Plugin Manager.
+Install using your favorite Vim Plugin Manager. I personally use [Vundle](https://github.com/VundleVim/Vundle.vim)
 
-####Vundle
+####Vundle ([https://github.com/VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim))
 
-`Plugin "deens/lightline-gruvbox-theme"`
+- Add the following configuration to your .vimrc
+
+```vim
+Plugin "deens/lightline-gruvbox-theme"
+```
+-  Install with `:PluginInstall`
+
+Setup
+-------
+Add one of the following examples to your .vimrc
+
+#####Dark
+```vim
+let g:lightline = {
+      \ 'colorscheme': 'gruvbox_dark',
+      \ }
+```
+
+#####Light
+```vim
+let g:lightline = {
+      \ 'colorscheme': 'gruvbox_light',
+      \ }
+```
+
+For more configuration options check [lightline documentation](https://github.com/itchyny/lightline.vim#configuration-tutorial)
+
+
+
 
